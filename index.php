@@ -15,6 +15,7 @@
 </head>
 <body>
 
+    <nav><a href="users.php">List all users</a> | <a href="all_bookings.php">List all bookings</a></nav>
     <h2>Create a New Booking</h2>
 
     <form action="process_booking.php" method="POST">
@@ -28,7 +29,7 @@
         <input type="tel" name="phone" required>
 		
 	  <label>Address:</label>
-        <input type="Address" name="Address" required>
+        <input type="text" name="address" required>
 
         <label>Service:</label>
         <input type="text" name="service_name" required>
